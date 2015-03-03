@@ -10,7 +10,10 @@
         </div>
 
         <div id="menu">
-            test menu
+            <ul>
+                <li>test
+                <li>test
+            </ul>
         </div>
 
         <div id="content">

@@ -1,3 +1,10 @@
+<?php
+echo '<pre>';
+print_r(PDO::getAvailableDrivers());
+echo '</pre>';
+
+?>
+<script src="https://apis.google.com/js/client:platform.js" async defer></script>
 <!DOCTYPE html>
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=windows-1252">
@@ -9,12 +16,19 @@
             test header
         </div>
 
-        <div id="menu">
+        <div id="menu-content">
             <ul>
                 <li>test
                 <li>test
             </ul>
+            <div id="login">
+                <ul>
+                    <li>login
+                    <li>register
+                </ul>
+            </div>
         </div>
+
 
         <div id="content">
             <div id="sidebar">
@@ -22,7 +36,7 @@
             </div>
 
             <div id="shop">
-                test shop
+
             </div>
         </div>
 

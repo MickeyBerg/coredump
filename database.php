@@ -1,9 +1,9 @@
 <?php
 //connect.php
 $server = 'localhost';
-$username   = 'usernamehere';
-$password   = 'passwordhere';
-$database   = 'databasenamehere';
+$username   = 'admin';
+$password   = 'admin';
+$database   = 'coredump';
 
 if(!mysql_connect($server, $username,  $password))
 {

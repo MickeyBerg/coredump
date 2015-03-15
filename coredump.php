@@ -1,47 +1,27 @@
 <?php
-echo '<pre>';
-print_r(PDO::getAvailableDrivers());
-echo '</pre>';
+
 
 ?>
-<script src="https://apis.google.com/js/client:platform.js" async defer></script>
-<!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<head>
         <link href="css/default.css" rel="stylesheet">
     </head>
 
     <body>
         <div id="header">
-            test header
+            <img src="img/header.jpg">
         </div>
-
-        <div id="menu-content">
-            <ul>
-                <li>test
-                <li>test
-            </ul>
-            <div id="login">
-                <ul>
-                    <li>login
-                    <li>register
-                </ul>
-            </div>
-        </div>
-
-
+            <?php include("header.php") ?>
         <div id="content">
             <div id="sidebar">
-                test sidebar
+                Testboudel
             </div>
 
             <div id="shop">
-
+                test shop
             </div>
         </div>
 
         <div id="footer">
             test footer
         </div>
-    
-</body></html>
+    </body>

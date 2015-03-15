@@ -2,3 +2,69 @@ body {
     background-color: #4E4E4E;
     text-align: center;         /* make sure IE centers the page too */
 }
+#menu-content {
+    float: center;
+    border-bottom: none;        /* avoid a double border */
+    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    width: 1000px;
+    height: 50px;
+    background-color: #FFF;
+    text-align: left;
+    background-color: gray;
+    margin: 5 auto;
+    margin-top: 10px;
+}
+ 
+#menu-content a:hover {
+    background-color: black;
+}
+ 
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+    height: 50px;
+    background-color: #444444;
+}
+#header {
+    width: 1000px;
+    height: 150px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+#header img {
+    width: 1000px;
+    height: 150px;
+}
+
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: auto;
+}
+
+#footer {
+    width: 1000px;
+    height: 80px;
+    background-color: gray;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#sidebar {
+    float: left;
+    width: 190px;
+    min-height: 600px;
+    background-color: gray;
+    margin-right: 10px;
+}
+
+#shop {
+    float: left;
+    width: 800px;
+    min-height: 400px;
+    background-color: gray;
+}

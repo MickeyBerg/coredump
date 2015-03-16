@@ -16,7 +16,7 @@
                         <li><a href="">info</a></li>
                     </ul>
                     <div id="userbar">
-                    test
+                        <img src="img/winkel.jpg">
                     </div>
             </div>
             <div id="sidebar">

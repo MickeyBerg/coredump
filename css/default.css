@@ -3,23 +3,37 @@ body {
     text-align: center;         /* make sure IE centers the page too */
 }
 #menu-content {
-    float: center;
-    border-bottom: none;        /* avoid a double border */
-    clear: both;                /* clear:both makes sure the content div doesn't float next to this one but stays under it */
+    float: left;
     width: 1000px;
     height: 50px;
     background-color: #FFF;
     text-align: left;
     background-color: gray;
-    margin: 5 auto;
     margin-top: 10px;
+    margin-bottom: 11px;
+}
+
+#menu-content ul {
+    display: inline;
+    width: 200px;
+    height: 50px;
+}
+#menu-content li {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px/25px Arial, sans-serif;
+    color: #3e5706;
+    background: #a5cd4e;
+}
+#menu-content li:hover{
+    background: blue;
 }
  
-#menu-content a:hover {
-    background-color: black;
-}
- 
-#userbar {
+#menu-content #userbar {
     background-color: #fff;
     float: right;
     width: 250px;

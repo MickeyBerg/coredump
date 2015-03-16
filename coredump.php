@@ -1,8 +1,6 @@
-<?php
-
-
-?>
-<head>
+<!DOCTYPE html>
+<html>
+    <head>
         <link href="css/default.css" rel="stylesheet">
     </head>
 
@@ -10,8 +8,17 @@
         <div id="header">
             <img src="img/header.jpg">
         </div>
-            <?php include("header.php") ?>
         <div id="content">
+            <div id="menu-content">
+                    <ul>
+                        <li><a href="">home</a></li>
+                        <li><a href="">store</a></li>
+                        <li><a href="">info</a></li>
+                    </ul>
+                    <div id="userbar">
+                    test
+                    </div>
+            </div>
             <div id="sidebar">
                 Testboudel
             </div>
@@ -25,3 +32,4 @@
             test footer
         </div>
     </body>
+</html>

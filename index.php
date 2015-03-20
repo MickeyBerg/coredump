@@ -24,13 +24,21 @@
                 </ul>
             </div>
             <div id="sidebar">
-                Testboudel
+                <a href="#"><p>Moederborden</p></a>
+                <a href="#"><p>SSD's</p></a>
+                <a href="#"><p>Videokaarten</p></a>
+                <a href="#"><p>Geheugen</p></a>
+                <a href="#"><p>Processoren</p></a>
+                <a href="#"><p>Rand apparatuur</p></a>
+                <a href="#"><p>Kabels</p></a>
+
             </div>
 
             <div id="shop">
-                <div class="cat_buttons">
+                <a href="#"><div class="cat_buttons">
                     <img src="img/moederboard.jpg">
-                </div>
+                        <p>Moederborden</p>
+                </div></a>
                 <div class="cat_buttons">
                     <img src="img/moederboard.jpg">
                 </div>

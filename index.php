@@ -20,9 +20,9 @@
                     <li><a href='#'><span>Products</span></a></li>
                     <li><a href='#'><span>Company</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
-                    <img src="img/winkel.jpg" style; width="50px"; height="50px">
                 </ul>
             </div>
+
             <?
 
             include 'menu.php';
@@ -37,6 +37,7 @@
                 <a href="#"><p>Processoren</p></a>
                 <a href="#"><p>Rand apparatuur</p></a>
                 <a href="#"><p>Kabels</p></a>
+                <a href="#"><p>Software</p></a>
 
             </div>
 
@@ -58,19 +59,20 @@
                     <p>Videokaarten</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/geheugen.jpg">
+                    <p>Laptop/Desktop Geheugen</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/rand.png">
+                    <p>Randapparatuur</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/kabel.jpg">
+                    <p>Kabels</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/software.jpg">
+                    <p>Software</p>
                 </div>
             </div>
         </div>

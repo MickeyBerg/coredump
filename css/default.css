@@ -151,15 +151,16 @@ body {
 
 #sidebar {
     float: left;
-    width: 190px;
+    width: 180px;
     min-height: 600px;
     background-color: gray;
     margin-right: 10px;
+    padding-left: 10px;
 }
 
 #sidebar a {
     font-family: 'Open Sans', sans-serif;
-    text-align:
+    text-align: left;
     color: black;
 
 }

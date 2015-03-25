@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Coredump is the best!</title>
         <meta charset='utf-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,9 +21,9 @@
                     <li><a href='#'><span>Products</span></a></li>
                     <li><a href='#'><span>Company</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
-                    <img src="img/winkel.jpg" style; width="50px"; height="50px">
                 </ul>
             </div>
+
             <?
 
             include 'menu.php';
@@ -37,6 +38,12 @@
                 <a href="#"><p>Processoren</p></a>
                 <a href="#"><p>Rand apparatuur</p></a>
                 <a href="#"><p>Kabels</p></a>
+                <a href="#"><p>Software</p></a>
+                <a href="#"><p>Voedingen</p></a>
+                <a href="#"><p>Harddisk intern</p></a>
+                <a href="#"><p>Behuizingen</p></a>
+                <a href="#"><p>NAS</p></a>
+
 
             </div>
 
@@ -58,25 +65,42 @@
                     <p>Videokaarten</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/geheugen.jpg">
+                    <p>Laptop/Desktop Geheugen</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/rand.png">
+                    <p>Randapparatuur</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/kabel.jpg">
+                    <p>Kabels</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/software.jpg">
+                    <p>Software</p>
                 </div>
                 <div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
+                    <img src="img/voeding.jpg">
+                    <p>voedingen</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/intern.jpg">
+                    <p>Harddisk intern</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/behuizing.jpg">
+                    <p>Behuizingen</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/nas.jpg">
+                    <p>NAS</p>
                 </div>
             </div>
         </div>
 
         <div id="footer">
-            test footer
+            Copyright: CoreDump.
         </div>
     </body>
 </html>

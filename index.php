@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Coredump is the best!</title>
         <meta charset='utf-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,6 +39,11 @@
                 <a href="#"><p>Rand apparatuur</p></a>
                 <a href="#"><p>Kabels</p></a>
                 <a href="#"><p>Software</p></a>
+                <a href="#"><p>Voedingen</p></a>
+                <a href="#"><p>Harddisk intern</p></a>
+                <a href="#"><p>Behuizingen</p></a>
+                <a href="#"><p>NAS</p></a>
+
 
             </div>
 
@@ -74,11 +80,27 @@
                     <img src="img/software.jpg">
                     <p>Software</p>
                 </div>
+                <div class="cat_buttons">
+                    <img src="img/voeding.jpg">
+                    <p>voedingen</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/intern.jpg">
+                    <p>Harddisk intern</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/behuizing.jpg">
+                    <p>Behuizingen</p>
+                </div>
+                <div class="cat_buttons">
+                    <img src="img/nas.jpg">
+                    <p>NAS</p>
+                </div>
             </div>
         </div>
 
         <div id="footer">
-            test footer
+            Copyright: CoreDump.
         </div>
     </body>
 </html>

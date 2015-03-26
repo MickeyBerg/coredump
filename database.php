@@ -1,16 +1,14 @@
 <?php
 //connect.php
-$server = 'localhost';
-$username   = 'admin';
-$password   = 'admin';
-$database   = 'coredump';
-
-if(!mysql_connect($server, $username,  $password))
-{
-    exit('Error: could not establish database connection');
-}
-if(!mysql_select_db($database)
-{
-exit('Error: could not select the database');
+$user = "root";
+$pass = "";
+try {
+    $dbh = new PDO('mysql:host=localhost;dbname=coredump', $user, $pass);
+    foreach($dbh->query('SELECT * from login') as $row) {
+        print_r($row);
+    }
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
 }
 ?>

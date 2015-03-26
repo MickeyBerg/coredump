@@ -1,6 +1,6 @@
 
     <div id="menu-content">
-        <a class="item" href="coredump.php">Home</a> -
+        <a class="item" href="index.php">Home</a> -
         <a class="item" href="">nothing</a> -
         <a class="item" href="store.php">Store</a>
          

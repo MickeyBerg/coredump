@@ -33,7 +33,7 @@
                 </div>
             </li>
             <li id="signup">
-                <a href="">Registreren</a>
+                <a href="register.php">Registreren</a>
             </li>
             </ul>
             </nav>

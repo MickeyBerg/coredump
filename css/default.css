@@ -24,6 +24,7 @@ body {
     display: inline-block;
     padding: 0;
     margin: 0;
+
 }
 #cssmenu.align-right ul li {
     float: right;
@@ -343,4 +344,41 @@ nav li #login-content {
     margin:0 auto;
     height: 25px;
     margin-bottom: 10px;
+    background-color: gray;
+}
+
+#register{
+    border: 1px solid black;
+    text-align: center;
+    margin: 50px;
+    background-color: cadetblue;
+    padding-bottom: 25px;
+
+}
+
+#voor{
+    width: 100px;
+}
+
+#tussen{
+    width: 100px;
+}
+
+#achter{
+    width: 150px;
+}
+#straat{
+    width: 150px;
+
+}
+#nr{
+    width: 50px;
+
+}
+#postcode{
+    width: 100px;
+}
+
+#plaats{
+    width: 150px;
 }

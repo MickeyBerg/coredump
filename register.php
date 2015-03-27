@@ -97,6 +97,7 @@
                 <input id="tel" type="text" name="tel" placeholder="Telefoon nummer"><br>
             <p>Mobiel</p>
             <input id="mob" type="text" name="mob" placeholder="Mobiel Nummer"><br>
+            <br>
             <input type="button" name="registreer" value="Registreer">
 
         </div>

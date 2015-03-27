@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="script.js"></script>
         <link href="css/default.css" rel="stylesheet">
         <script src="js/login.js"></script>
     </head>

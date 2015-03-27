@@ -3,7 +3,14 @@ body {
 }
 /*/menu/*/
 #cssmenu ul {
-    background-color: gray;
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(18%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
     list-style: none;
     margin: 0;
     margin-bottom: 10px;
@@ -33,7 +40,7 @@ body {
     text-align: center;
 }
 #cssmenu ul li a {
-    color: darkgrey;
+    color: black;
     text-decoration: none;
     display: block;
     padding: 15px 25px;
@@ -144,11 +151,10 @@ body {
 
 #footer {
     width: 1000px;
-    height: 80px;
+    height: 50px;
     background-color: gray;
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
 }
 

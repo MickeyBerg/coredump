@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             isset($_POST['password']) && trim($_POST['password']) != '')
 	{
 		try{
-			$db = new PDO("mysql:host=localhost;dbname=coredump","root","");
+			$db = new PDO("mysql:host=localhost;dbname=coredump","root","Wouter12");
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 			//sql
@@ -27,7 +27,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 			if (count($user) == 1)
                 {
                     //pagina waar naartoe nadat er succesvol is ingelogd
+                    $message = 'Welkom';
                     header('Location: index.php');
+
                     die;
                 }
                 else

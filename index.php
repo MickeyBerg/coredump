@@ -1,3 +1,6 @@
+<?php
+require("database.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,12 +9,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="script.js"></script>
         <link href="css/default.css" rel="stylesheet">
         <script src="js/login.js"></script>
     </head>
 
     <body>
+    <?php
+            if (isset($message))
+            {
+                echo $message;
+            }
+        ?>
         <div id="login_element">
             <nav>
             <ul>
@@ -20,10 +28,10 @@
                     Log in <span>▼</span>
                 </a>
                 <div id="login-content">
-                    <form>
+                    <form method="POST">
                         <fieldset id="inputs">
-                            <input id="username" type="email" name="Email" placeholder="Email" required>
-                            <input id="password" type="password" name="Password" placeholder="Wachtwoord" required>
+                            <input id="username" type="email" name="username" placeholder="Email" required>
+                            <input id="password" type="password" name="password" placeholder="Wachtwoord" required>
                         </fieldset>
                         <fieldset id="actions">
                             <input type="submit" id="submit" value="Log in">

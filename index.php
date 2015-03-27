@@ -1,3 +1,6 @@
+<?php
+require("database.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,6 +14,12 @@
     </head>
 
     <body>
+    <?php
+            if (isset($message))
+            {
+                echo $message;
+            }
+        ?>
         <div id="login_element">
             <nav>
             <ul>
@@ -19,10 +28,10 @@
                     Log in <span>▼</span>
                 </a>
                 <div id="login-content">
-                    <form>
+                    <form method="POST">
                         <fieldset id="inputs">
-                            <input id="username" type="email" name="Email" placeholder="Email" required>
-                            <input id="password" type="password" name="Password" placeholder="Wachtwoord" required>
+                            <input id="username" type="email" name="username" placeholder="Email" required>
+                            <input id="password" type="password" name="password" placeholder="Wachtwoord" required>
                         </fieldset>
                         <fieldset id="actions">
                             <input type="submit" id="submit" value="Log in">

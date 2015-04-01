@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             isset($_POST['password']) && trim($_POST['password']) != '')
 	{
 		try{
-			$db = new PDO("mysql:host=localhost;dbname=coredump","root","Wouter12");
+			$db = new PDO("mysql:host=localhost;dbname=coredump","admin","admin");
 			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 			//sql

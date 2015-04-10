@@ -1,6 +1,4 @@
-<?php
-require("database.php");
-?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,12 +12,6 @@ require("database.php");
     </head>
 
     <body>
-    <?php
-            if (isset($message))
-            {
-                echo $message;
-            }
-        ?>
         <div id="login_element">
             <nav>
             <ul>
@@ -28,6 +20,12 @@ require("database.php");
                     Log in <span>▼</span>
                 </a>
                 <div id="login-content">
+                    <?php
+                    if (isset($message))
+                    {
+                        echo $message;
+                    }
+                    ?>
                     <form method="POST">
                         <fieldset id="inputs">
                             <input id="username" type="email" name="username" placeholder="Email" required>

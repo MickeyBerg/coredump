@@ -20,7 +20,7 @@
                     Log in <span>▼</span>
                 </a>
                 <div id="login-content">
-                    <form>
+                    <form method="POST">
                         <fieldset id="inputs">
                             <input id="username" type="email" name="Email" placeholder="Email" required>
                             <input id="password" type="password" name="Password" placeholder="Wachtwoord" required>

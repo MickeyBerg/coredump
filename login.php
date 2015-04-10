@@ -8,7 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
             isset($_POST['password']) && trim($_POST['password']) != '')
 	{
 			require_once("database.php");
-
+			$db = new Database();
+			$db->Connect();
+			echo $db;
 			//sql
 			$checkusers = "
 			SELECT usernameid

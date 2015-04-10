@@ -26,6 +26,7 @@
                         echo $message;
                     }
                     ?>
+
                     <form method="POST">
                         <fieldset id="inputs">
                             <input id="username" type="email" name="username" placeholder="Email" required>
@@ -48,6 +49,9 @@
             <img src="img/header.jpg">
         </div>
         <div id="content">
+
+           <div id="menucontainer">
+
             <div id='cssmenu'>
                 <ul>
                     <li class='active'><a href='#'><span>Home</span></a></li>
@@ -55,9 +59,13 @@
                     <li><a href='#'><span>Company</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                 </ul>
-            </div>
 
+                </div>
+               <div id="winkelmand">
+                   <p>Wikelmandje</p>
 
+               </div>
+           </div>
             <div id="sidebar">
                 <a href="#"><p>Moederborden</p></a>
                 <a href="#"><p>SSD's</p></a>

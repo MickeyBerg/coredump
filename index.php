@@ -48,10 +48,8 @@
         <div id="header">
             <img src="img/header.jpg">
         </div>
-        <div id="content">
 
-           <div id="menucontainer">
-
+        <div id="menucontainer">
             <div id='cssmenu'>
                 <ul>
                     <li class='active'><a href='#'><span>Home</span></a></li>
@@ -59,13 +57,13 @@
                     <li><a href='#'><span>Company</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                 </ul>
+            </div>
+            <div id="winkelmand">
+                <p>Wikelmandje</p>
+            </div>
+        </div>
+            <div id="content">
 
-                </div>
-               <div id="winkelmand">
-                   <p>Wikelmandje</p>
-
-               </div>
-           </div>
             <div id="sidebar">
                 <a href="#"><p>Moederborden</p></a>
                 <a href="#"><p>SSD's</p></a>

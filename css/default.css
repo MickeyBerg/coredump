@@ -2,6 +2,11 @@ body {
     background-color: #fefff3;
 }
 /*/menu/*/
+#cssmenu {
+    width: 750px;
+    float: left;
+    margin-top: 10px;
+}
 
 #cssmenu ul {
     background: rgba(242,246,248,1);
@@ -19,7 +24,7 @@ body {
     display: block;
     zoom: 1;
     text-align: left;
-    width: 700px;
+    width: 710px;
 }
 #cssmenu ul:after {
     content: " ";
@@ -398,7 +403,15 @@ nav li #login-content {
     text-align: right;
     height: 44px;
     width: 250px;
-    background-color: red;
+    margin-top: 10px;
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(18%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0 );
 
 }
 
@@ -437,4 +450,9 @@ nav li #login-content {
 
 #plaats{
     width: 150px;
+}
+
+#menucontainer {
+    margin: 0 auto;
+    width: 1000px;
 }

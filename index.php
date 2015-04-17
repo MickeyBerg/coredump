@@ -1,6 +1,9 @@
-
+<?php
+require_once("login.php")
+?>
 <!DOCTYPE html>
 <html>
+    <?php //var_dump($_SESSION['username']); ?>
     <head>
         <title>Coredump is the best!</title>
         <meta charset='utf-8'>

@@ -16,14 +16,19 @@ require_once("login.php")
 
     <body>
         <div id="login_element">
+        <?php if(isset($_SESSION['username']) != null){
+                    echo 'Welcome! ',$_SESSION['username'], '<a href="logout.php"> Logout</a>';
+                } else {
+                    echo '
             <nav>
             <ul>
             <li id="login">
                 <a id="login-trigger" href="#">
                     Log in <span>▼</span>
                 </a>
+                
                 <div id="login-content">
-                    <?php
+                <?php
                     if (isset($message))
                     {
                         echo $message;
@@ -41,6 +46,9 @@ require_once("login.php")
                         </fieldset>
                     </form>
                 </div>
+                ';
+            }
+        ?>
             </li>
             <li id="signup">
                 <a href="register.php">Registreren</a>

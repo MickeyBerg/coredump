@@ -2,15 +2,15 @@
     ini_set('display_errors', 1); // 0 = uit, 1 = aan
     error_reporting(E_ALL);
     session_start();
-
+require_once 'database.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST"){
 	if (isset($_POST['username']) && trim($_POST['username']) != '' &&
             isset($_POST['password']) && trim($_POST['password']) != '')
 	{
-		try{
-			$db = new PDO("mysql:host=localhost;dbname=coredump","admin","admin");
-			$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
+			require_once("database.php");
+			$db = new Database();
+			$db->Connect();
+			echo $db;
 			//sql
 			$checkusers = "
 			SELECT usernameid
@@ -27,9 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 			if (count($user) == 1)
                 {
                     //pagina waar naartoe nadat er succesvol is ingelogd
-                    $message = 'Welkom';
-                    header('Location: register.php');
-
+                    header('Location: index.php');
                     die;
                 }
                 else
@@ -37,11 +35,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                         $message = 'invalid username/password. Please try again';
                     }
 		}
-		catch (PDOException $e)
-            {
-                $message = $e->getMessage();
-            }
-            $db = NULL;
-        }
         
 	}

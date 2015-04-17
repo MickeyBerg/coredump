@@ -46,15 +46,16 @@ require_once("login.php")
                         </fieldset>
                     </form>
                 </div>
-                ';
-            }
-        ?>
             </li>
             <li id="signup">
                 <a href="register.php">Registreren</a>
             </li>
             </ul>
             </nav>
+
+        ';
+        }
+        ?>
         </div>
         <div id="header">
             <img src="img/header.jpg">
@@ -70,7 +71,7 @@ require_once("login.php")
                 </ul>
             </div>
             <div id="winkelmand">
-                <p>Wikelmandje</p>
+                <p>Winkelmandje</p>
             </div>
         </div>
             <div id="content">

@@ -135,7 +135,7 @@ body {
     }
 }
 
-/*/menu/*/
+/*/menu end /*/
 #header {
     width: 1000px;
     height: 150px;
@@ -307,7 +307,7 @@ nav li #login-content {
     width: 280px;
 }
 
-/*--------------------*/
+/*---------end-----------*/
 
 #inputs input {
     background: #f1f1f1;
@@ -326,7 +326,7 @@ nav li #login-content {
     box-shadow: 0 0 0 1px #e8c291 inset;
 }
 
-/*--------------------*/
+/*----------end----------*/
 
 #login #actions {
     margin: 10px 0 0 0;

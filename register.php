@@ -20,10 +20,17 @@
                     Log in <span>▼</span>
                 </a>
                 <div id="login-content">
+                    <?php
+                    if (isset($message))
+                    {
+                        echo $message;
+                    }
+                    ?>
+
                     <form method="POST">
                         <fieldset id="inputs">
-                            <input id="username" type="email" name="Email" placeholder="Email" required>
-                            <input id="password" type="password" name="Password" placeholder="Wachtwoord" required>
+                            <input id="username" type="email" name="username" placeholder="Email" required>
+                            <input id="password" type="password" name="password" placeholder="Wachtwoord" required>
                         </fieldset>
                         <fieldset id="actions">
                             <input type="submit" id="submit" value="Log in">
@@ -41,16 +48,21 @@
 <div id="header">
     <img src="img/header.jpg">
 </div>
-<div id="content">
+
+<div id="menucontainer">
     <div id='cssmenu'>
         <ul>
-            <li class=''><a href='index.php'><span>Home</span></a></li>
+            <li class='active'><a href='#'><span>Home</span></a></li>
             <li><a href='#'><span>Products</span></a></li>
             <li><a href='#'><span>Company</span></a></li>
             <li class='last'><a href='#'><span>Contact</span></a></li>
         </ul>
     </div>
-
+    <div id="winkelmand">
+        <p>Wikelmandje</p>
+    </div>
+</div>
+<div id="content">
 
     <div id="sidebar">
         <a href="#"><p>Moederborden</p></a>

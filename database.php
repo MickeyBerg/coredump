@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                 {
                     //pagina waar naartoe nadat er succesvol is ingelogd
                     $message = 'Welkom';
-                    header('Location: index.php');
+                    header('Location: register.php');
 
                     die;
                 }

@@ -77,75 +77,14 @@ require_once("login.php")
         </div>
             <div id="content">
 
-            <div id="sidebar">
-                <a href="moederborden.php"><p>Moederborden</p></a>
-                <a href="#"><p>SSD's</p></a>
-                <a href="#"><p>Videokaarten</p></a>
-                <a href="#"><p>Geheugen</p></a>
-                <a href="#"><p>Processoren</p></a>
-                <a href="#"><p>Rand apparatuur</p></a>
-                <a href="#"><p>Kabels</p></a>
-                <a href="#"><p>Software</p></a>
-                <a href="#"><p>Voedingen</p></a>
-                <a href="#"><p>Harddisk intern</p></a>
-                <a href="#"><p>Behuizingen</p></a>
-                <a href="#"><p>NAS</p></a>
+            <?php
+            include("sidebar.php")
+            ?>
 
+            <?php
 
-            </div>
-
-            <div id="shop">
-                <a href="moederborden.php"><div class="cat_buttons">
-                    <img src="img/moederboard.jpg">
-                        <p>Moederborden</p>
-                </div></a>
-                <div class="cat_buttons">
-                    <img src="img/ssd.jpg">
-                    <p>SSD's</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/processor.jpg">
-                    <p>Processoren</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/videokaart.jpg">
-                    <p>Videokaarten</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/geheugen.jpg">
-                    <p>Laptop/Desktop Geheugen</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/rand.png">
-                    <p>Randapparatuur</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/kabel.jpg">
-                    <p>Kabels</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/software.jpg">
-                    <p>Software</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/voeding.jpg">
-                    <p>voedingen</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/intern.jpg">
-                    <p>Harddisk intern</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/behuizing.jpg">
-                    <p>Behuizingen</p>
-                </div>
-                <div class="cat_buttons">
-                    <img src="img/nas.jpg">
-                    <p>NAS</p>
-                </div>
-            </div>
-        </div>
-
+            include("shop.php")
+            ?>
         <div id="footer">
             Copyright: CoreDump.
         </div>

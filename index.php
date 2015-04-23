@@ -28,6 +28,7 @@ require_once("login.php")
                 </a>
                 
                 <div id="login-content">
+                <p>LOGIN</p>
                 <?php
                     if (isset($message))
                     {
@@ -65,8 +66,8 @@ require_once("login.php")
             <div id='cssmenu'>
                 <ul>
                     <li class='active'><a href='#'><span>Home</span></a></li>
-                    <li><a href='#'><span>Products</span></a></li>
-                    <li><a href='#'><span>Company</span></a></li>
+                    <li><a href='#'><span>Producten</span></a></li>
+                    <li><a href='#'><span>Over ons</span></a></li>
                     <li class='last'><a href='#'><span>Contact</span></a></li>
                 </ul>
             </div>

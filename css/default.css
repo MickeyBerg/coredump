@@ -314,7 +314,7 @@ nav li #login-content {
     padding: 6px 5px;
     margin: 0 0 5px 0;
     width: 238px;
-    border: 1px solid #ccc;
+    border: 10px solid #ccc;
     border-radius: 3px;
     box-shadow: 0 1px 1px #ccc inset;
 }
@@ -403,6 +403,8 @@ nav li #login-content {
     text-align: right;
     height: 44px;
     width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
     margin-top: 10px;
     background: rgba(242,246,248,1);
     background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 18%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);

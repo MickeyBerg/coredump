@@ -78,7 +78,7 @@ require_once("login.php")
             <div id="content">
 
             <div id="sidebar">
-                <a href="#"><p>Moederborden</p></a>
+                <a href="moederborden.php"><p>Moederborden</p></a>
                 <a href="#"><p>SSD's</p></a>
                 <a href="#"><p>Videokaarten</p></a>
                 <a href="#"><p>Geheugen</p></a>
@@ -95,7 +95,7 @@ require_once("login.php")
             </div>
 
             <div id="shop">
-                <a href="#"><div class="cat_buttons">
+                <a href="moederborden.php"><div class="cat_buttons">
                     <img src="img/moederboard.jpg">
                         <p>Moederborden</p>
                 </div></a>

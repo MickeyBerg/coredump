@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <div id="shop">
-    <a href="moederborden.php"><div class="cat_buttons">
+<!--     <a href="moederborden.php"><div class="cat_buttons">
             <img src="img/moederboard.jpg">
             <p>Moederborden</p>
         </div></a>
@@ -49,7 +49,34 @@
     <div class="cat_buttons">
         <img src="img/nas.jpg">
         <p>NAS</p>
-    </div>
+    </div> -->
+    <?php
+    $Database = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
+                    try{
+                    $Database->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                    $catsql = "SELECT *
+                            FROM producten_categorie";
+                    $db = $Database;
+                    $statement = $db->prepare($catsql);
+                    $statement->execute();
+                    $cat = $statement->fetchall();
+                    $arrlength = count($cat);
+                    for($x = 0; $x < $arrlength; $x++) {
+                        $cat_desc = $cat[$x]['Catergorie_desc'];
+                        $Categorie = $cat[$x]['Categorie'];
+                        $img = $cat[$x]['imglocatie'];
+                        ?>
+                        <div class="cat_buttons">
+                            <a href="<?php echo $Categorie; ?>.php"><img style="width: 180px; height: 180px;" src="img/<?php echo $Categorie; ?>.jpg">
+                            <p><?php echo $Categorie; ?></p>
+                        </div>
+                        <?php
+                    }
+                    
+                }catch(PDOException $e){
+                  echo "Error: " . $e->getMessage();
+                }
+                ?>
 </div>
 </div>
 </html>

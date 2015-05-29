@@ -11,8 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                     $Database = new PDO("mysql:host=$dbhost;dbname=$dbname",$dbuser,$dbpass);
                     $Database->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                     $usersql = "SELECT *
-                            FROM login
-                            WHERE username = :username
+                            FROM users
+                            WHERE email = :username
                             AND password = :password";
                     $db = $Database;
                     $statement = $db->prepare($usersql);
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
                         header("Location: index.php");
                     } else {
                         $message = 'invalid username/password. Please try again';
-                        header("Location: index.php");
+                        header("Location: yolo.php");
                     }
                 }catch(PDOException $e){
                   echo "Error: " . $e->getMessage();

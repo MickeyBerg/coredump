@@ -2,7 +2,7 @@
 <?php
         $dbhost 	= "localhost";
         $dbname		= "coredump";
-        $dbuser		= "root";
-        $dbpass		= "";
+        $dbuser		= "admin";
+        $dbpass		= "admin";
 
 ?>
